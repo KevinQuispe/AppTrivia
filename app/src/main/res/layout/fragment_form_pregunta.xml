@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcquispe.apptrivia.fragmentos.FormPreguntaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/form_pregunta_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/form_pregunta_fragment" />
+
+        <EditText
+        android:id="@+id/txt_pregunta"
+        android:hint="Ingrese Pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/txt_respuesta1"
+            android:hint="Ingrese Respuesta 1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/txt_respuesta2"
+            android:hint="Ingrese Respuesta 2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/txt_respuesta3"
+            android:hint="Ingrese Respuest 3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/txt_respuesta4"
+            android:hint="Ingrese Respuesta 4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</FrameLayout>
