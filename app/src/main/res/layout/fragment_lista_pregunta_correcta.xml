@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/frag_detalle"
+tools:context="com.example.pcquispe.apptrivia.fragmentos.ListaPreguntaCorrectaFragment">
+
+<!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tex_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Detalle Respuesta"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tex_nombre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta"
+            android:textSize="20dp"
+            android:textColor="@color/buttonTextColorBlack"
+            android:textStyle="bold" />
+        <TextView
+            android:textColor="@color/buttonTextColorBlack"
+            android:id="@+id/tex_pregunta_correcta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tex_respuesta_correcta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Respuesta"
+            android:textColor="@color/buttonTextColorBlack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/buttonTextColorBlack"
+            android:id="@+id/txt_respuesta_correcta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</FrameLayout>

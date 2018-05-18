@@ -17,4 +17,25 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textColor">@color/buttonTextColorWhite</item>
+        <item name="android:paddingLeft">@dimen/button_padding</item>
+        <item name="android:paddingRight">@dimen/button_padding</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_margin</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin</item>
+    </style>
+    <style name="Buttons.Small">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.DayNight">
+        <item name="colorButtonNormal">@color/buttonSuccessColor</item>
+        <item name="colorControlHighlight">@color/buttonHoverColor</item>
+        <item name="android:textColor">@color/buttonTextColorBlack</item>
+    </style>
 </resources>

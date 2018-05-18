@@ -5,5 +5,6 @@ package com.example.pcquispe.apptrivia.util;
  */
 
 public class Config {
-    static String URL_SERVER="http://192.168.1.1";
+    public static String  URL_SERVER="http://192.168.1.3/trivia/Server/public/api/";
+    //public static String URL_SERVER="http://192.168.1.36:8080/android/Trivia/Server/public/api/";
 }

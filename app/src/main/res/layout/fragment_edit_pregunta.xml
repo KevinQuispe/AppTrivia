@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin">
+
+    <GridLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_preguntar"
+            android:layout_width="275dp"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_margin"
+            android:hint="Pregunta">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_preguntaedit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:textSize="@dimen/form_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_layout_respuesta1"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_margin"
+            android:hint="Ingrese Respuesta 1">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_respuestaedit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/form_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/check_respuesta1"
+            android:layout_marginTop="45dp"
+            android:checked="false"
+            android:text="" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_layout_respuesta2"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_margin"
+            android:hint="Ingrese Respuesta 2">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_respuestaedit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/form_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/check_respuesta2"
+            android:layout_marginTop="45dp"
+            android:checked="false"
+            android:text="" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_layout_respuesta3"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_margin"
+            android:hint="Ingrese Respuesta 3">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_respuestaedit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/form_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/check_respuesta3"
+            android:layout_marginTop="45dp"
+            android:checked="false"
+            android:text="" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txt_layout_respuesta4"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_margin"
+            android:hint="Ingrese Respuesta 4">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_respuestaedit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="@dimen/form_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/check_respuesta4"
+            android:layout_marginTop="45dp"
+            android:checked="false"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="275dp"
+            android:layout_column="0"
+            android:layout_marginTop="@dimen/form_pregunta_padding"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_lista_edit"
+            android:textColor="@color/color_buton_registrar" />
+    </GridLayout>
+</ScrollView>

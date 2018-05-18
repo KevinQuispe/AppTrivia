@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcquispe.apptrivia.fragmentos.ListaItemFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="@color/buttonTextColorBlack"
+            android:id="@+id/tex_nombre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formulación de Pregunta"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:textColor="@color/buttonTextColorBlack"
+            android:id="@+id/tex_nombre_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

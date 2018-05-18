@@ -5,15 +5,15 @@
         <item
             android:id="@+id/nav_registrar_pregunta"
             android:icon="@drawable/ic_question_answer_black_24dp"
-            android:title="Registar Pregunta" />
+            android:title="Registrar Pregunta" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_listar_preguntas"
             android:icon="@drawable/ic_playlist_add_check_black_24dp"
             android:title="Listar Preguntas" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_playquiz"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Play Quiz" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
@@ -30,6 +30,10 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
         </menu>
     </item>
 

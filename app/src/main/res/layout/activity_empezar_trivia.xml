@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_numero_vidas"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:background="@color/buttonPressedColor"
+            android:gravity="center"
+            android:text="Vidas:5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txt_tiempo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/buttonErrorColor"
+            android:gravity="center"
+            android:text="Tiempo:10:00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_respuesta1play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/buttonTextColorWhite"
+            android:text="Pregunta?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_respuesta1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:focusable="true"
+            android:text="Respuesta"
+            android:textColor="@color/buttonTextColorWhite"
+            android:theme="@style/RaisedButtonDark" />
+
+        <Button
+            android:id="@+id/btn_respuesta2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:focusable="true"
+            android:text="Respuesta"
+            android:textColor="@color/buttonTextColorWhite"
+            android:theme="@style/RaisedButtonDark" />
+        <Button
+            android:id="@+id/btn_respuesta3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:focusable="true"
+            android:text="Respuesta"
+            android:textColor="@color/buttonTextColorWhite"
+            android:theme="@style/RaisedButtonDark" />
+
+        <Button
+            android:id="@+id/btn_respuesta4"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:focusable="true"
+            android:text="Respuesta"
+            android:textColor="@color/buttonTextColorWhite"
+            android:theme="@style/RaisedButtonDark" />
+    </LinearLayout>
+
+</LinearLayout>

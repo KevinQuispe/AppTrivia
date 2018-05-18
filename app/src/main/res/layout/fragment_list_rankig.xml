@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_detalle"
+    tools:context="com.example.pcquispe.apptrivia.fragmentos.ListRankigFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/listado_ranking"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:divider="#64FFDA"
+        android:dividerHeight="1dp"
+        android:paddingLeft="2dp" />
+</FrameLayout>

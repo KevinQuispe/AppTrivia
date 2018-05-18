@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#004D44</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#1DE9B6</color>
+
+    <!--colores para botones texto-->
+    <color name="color_buton_registrar">#eeee</color>
+    <color name="color_onpres">#1DE9B6</color>
+    <color name="txt_color_correctas">#004D40</color>
+    <color name="txt_color_fallos">#F44336</color>
+    <color name="txt_color_puntos">#1DE9B6</color>
+    <color name="color_text_salir">#F44336</color>
+
+    <!--colores para botones-->
+    <color name="color_btn_play">#1DE9B6</color>
+    <color name="color_btn_result">#CDDC39</color>
+    <color name="buttonTextColorWhite">#FAFAFA</color>
+    <color name="buttonTextColorBlack">#000</color>
+    <color name="buttonNormalColor">#FFC107</color>
+    <color name="buttonHoverColor">#00BFA5</color>
+    <color name="buttonPressedColor">#FFA000</color>
+    <color name="buttonErrorColor">#F44336</color>
+    <color name="buttonSuccessColor">#004D40</color>
+
 </resources>
